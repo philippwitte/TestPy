@@ -1,0 +1,4 @@
+name = "TestPy"
+uuid = "979fddcf-1916-45c5-95d8-468994f7e1ec"
+authors = ["pwitte <pwitte@microsoft.com>"]
+version = "0.1.0"
