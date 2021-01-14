@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export JULIA_LOAD_PATH=$JULIA_LOAD_PATH:$AZ_BATCH_TASK_WORKING_DIR
+
+# Execute julia runtime
+julia $AZ_BATCH_TASK_WORKING_DIR/batch_runtime.jl
